@@ -10952,6 +10952,12 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
