@@ -1,0 +1,70 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("assets/background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0;
+  }
+
+  .jumbotron .lead,
+  .jumbotron .featurette-heading {
+    color: white;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .centered-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+
+  /* Add these styles to your existing CSS */
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-member,
+.advisor {
+    text-align: center;
+}
+
+.team-member img,
+.advisor img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Adjust image size and styles as needed */
+
+.advisor {
+    margin-top: 40px; /* Adjust the spacing as needed */
+}
