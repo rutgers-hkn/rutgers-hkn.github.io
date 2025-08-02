@@ -11243,6 +11243,15 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
+.second-row{
+  margin-top: -1.5rem;
+}
+.team-offset{
+  margin-left: 1.5rem;
+}
+.team-offset-right{
+  margin-right: 1.5rem;
+}
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
@@ -11251,6 +11260,7 @@ header.masthead .masthead-heading {
   width: 14rem;
   height: 14rem;
   object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
